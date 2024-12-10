@@ -10,6 +10,8 @@ long_cluj= 23.583807
 lat_coruia= 47.56480680803573 # cordonate
 long_coruia=23.60368731749156 #acasa
 
+# uite alt comentariu
+
 lat=getLoc.latitude
 long=getLoc.longitude
 map_start_point = folium.Map(location=[lat_cluj, long_cluj], zoom_start=13)
