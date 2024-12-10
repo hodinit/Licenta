@@ -7,19 +7,22 @@ getLoc = loc.geocode("Cismigiu, Romania")
 
 lat_cluj= 46.772166
 long_cluj= 23.583807
+lat_bucuresti = 44.4361414
+long_bucuresti = 26.1027202
 
 lat=getLoc.latitude
 long=getLoc.longitude
-map_start_point = folium.Map(location=[lat_cluj, long_cluj], zoom_start=13)
+map_start_point = folium.Map(location=[lat_cluj, long_cluj], zoom_start=1)
 folium.Marker([lat_cluj,long_cluj ], popup="Parcare Opera Maghiara").add_to(map_start_point)
+folium.Marker([lat_bucuresti,long_bucuresti ], popup="Capitala").add_to(map_start_point)
 
 # entering the location name
 
 
 # Add a marker
-# folium.Marker([37.7749, -122.4194], popup="San Francisco").add_to(map_start_point)
-# folium.Marker([46.556807, 23.808596], popup="Cluj").add_to(map_start_point)
-# folium.Marker([47.56480680803573, 23.60368731749156], popup="Cosmin").add_to(map_start_point)
+folium.Marker([37.7749, -122.4194], popup="San Francisco").add_to(map_start_point)
+folium.Marker([46.556807, 23.808596], popup="Cluj").add_to(map_start_point)
+folium.Marker([47.56480680803573, 23.60368731749156], popup="Cosmin").add_to(map_start_point)
 #folium.Marker([ 44.4361414 , 26.1027202], popup="Capitala").add_to(map_start_point)
 
 
