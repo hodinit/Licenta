@@ -7,6 +7,8 @@ getLoc = loc.geocode("Cismigiu, Romania")
 
 lat_cluj= 46.772166
 long_cluj= 23.583807
+lat_coruia= 47.56480680803573 # cordonate
+long_coruia=23.60368731749156 #acasa
 
 lat=getLoc.latitude
 long=getLoc.longitude
