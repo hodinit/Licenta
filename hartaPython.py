@@ -10,6 +10,8 @@ long_cluj= 23.583807
 lat_bucuresti = 44.4361414
 long_bucuresti = 26.1027202
 
+# CEA MAI BUNA SHAORMA
+
 lat=getLoc.latitude
 long=getLoc.longitude
 map_start_point = folium.Map(location=[lat_cluj, long_cluj], zoom_start=1)
